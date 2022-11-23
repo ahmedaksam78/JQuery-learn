@@ -1,0 +1,214 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+#p-hidden-message {
+    display: none;
+}
+
+#fade-btn {
+    padding: 10px;
+    margin: 10px;
+}
+
+#cont-div {
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
+
+}
+
+#div-show-message {
+    display: none;
+}
+
+.open {
+    padding: 10px;
+    background-color: #555;
+    margin: 20px auto 0px auto;
+    width: 500px;
+}
+
+.opened {
+    padding: 30px;
+    background-color: rgb(134, 131, 131);
+    margin: 0px auto;
+    width: 500px;
+    display: none;
+
+}
+
+.btn-stop-animation {
+    padding: 10px;
+    margin: 10px;
+}
+
+.animated {
+    padding: 30px;
+    background-color: rgb(134, 131, 131);
+    margin: 20px;
+    width: 500px;
+    position: relative;
+    color: orangered;
+
+}
+
+.chained {
+    padding: 30px;
+    background-color: rgb(146, 31, 31);
+    margin: 20px;
+    width: 500px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.span-add-file:hover {
+    cursor: pointer;
+}
+
+.custom {
+    background-color: #f00;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    width: 300px;
+    padding: 10px;
+}
+
+.br {
+    border-radius: 10px;
+}
+
+.p-set-css {
+    color: aliceblue;
+    padding: 10px;
+    background-color: #f00;
+    width: fit-content;
+    border-radius: 5px;
+
+}
+
+.dim {
+    background-color: #555;
+    padding: 10px;
+    border: 5px solid red;
+    width: 200px;
+
+}
+
+.cont {
+    width: 800px;
+    background: #ddd;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cont .left {
+    float: left;
+    width: 490px;
+    margin-right: 10px;
+    color: #f00;
+    background-color: aqua;
+}
+
+.cont .right {
+    float: right;
+    width: 300px;
+    color: #f00;
+    background-color: rgb(12, 48, 48);
+}
+
+section {
+    margin-top: 10px;
+    width: 400px;
+    border: 1px solid #676767;
+}
+
+.top {
+    border: 1px solid #676767;
+
+}
+
+.top p {
+    border: 1px solid #676767;
+
+}
+
+.top p span {
+    border: 1px solid #676767;
+}
+
+aside {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav div,
+nav p,
+address div {
+    padding: 10px;
+    background-color: #ddd;
+    margin: 10px 0;
+
+}
+
+.custom-design {
+    margin: 10px auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: #676767;
+}
+
+.input-file-div {
+    margin: 10px auto;
+}
+
+.sampa-img {
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+ .key-div{
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+ }
+ .phone-black-screen{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200%;
+    height: 500%;
+    
+    background-color: black;
+    color: #ddd;
+    z-index: 9977;
+    
+ }
+ .hidden{
+    display: none;
+ }
+ .div-up{
+    padding: 10px;
+    background-color: #f00;
+    color: #fFF;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 30%;
+    display: none;
+ }
+ .circle{
+   padding: 5px;
+   border-radius: 50%;
+   background-color: aqua;
+   width: fit-content;
+ }
